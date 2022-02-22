@@ -1,7 +1,7 @@
 import 'dart:io';
 
 class AdHelper {
-  static String get bannerAdUnitId {
+  /*static String get bannerAdUnitId {
     if (Platform.isAndroid) {
       return 'ca-app-pub-3940256099942544/6300978111';
     } else if (Platform.isIOS) {
@@ -29,10 +29,10 @@ class AdHelper {
     } else {
       throw new UnsupportedError("Unsupported platform");
     }
-  }
+  }*/
 
   // // // // // // // //
-  /*static String get bannerAdUnitId {
+  static String get bannerAdUnitId {
     if (Platform.isAndroid) {
       return 'ca-app-pub-9942057001003051/7803081207';
     } else if (Platform.isIOS) {
@@ -42,7 +42,7 @@ class AdHelper {
     }
   }
 
-  *//*static String get bannerAdUnitId1 {
+  /*static String get bannerAdUnitId1 {
     if (Platform.isAndroid) {
       return 'ca-app-pub-8109222512481156/3868151452';
     } else if (Platform.isIOS) {
@@ -50,8 +50,8 @@ class AdHelper {
     } else {
       throw new UnsupportedError('Unsupported platform');
     }
-  }*//*
-
+  }
+*/
   static String get interstitialAdUnitId {
     if (Platform.isAndroid) {
       return "ca-app-pub-9942057001003051/3915807082";
@@ -60,6 +60,5 @@ class AdHelper {
     } else {
       throw new UnsupportedError("Unsupported platform");
     }
-  }*/
-
+  }
 }
